@@ -1,3 +1,3 @@
-# Using HUAWEI mobile services with GOOGLE mobile services
+# Using HMS with GMS
 
 In development

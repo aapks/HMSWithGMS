@@ -1,3 +1,3 @@
-# Using huawei mobile services with google mobile services
+# Using HUAWEI mobile services with GOOGLE mobile services
 
 In development

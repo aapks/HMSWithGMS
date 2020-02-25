@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HmsWithGms</string>
+    <string name="msg_subscribed">Subscribed to topic</string>
+
+</resources>

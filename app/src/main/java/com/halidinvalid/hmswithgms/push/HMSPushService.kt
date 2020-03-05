@@ -8,11 +8,11 @@ import com.huawei.hms.push.SendException
 
 class HMSPushService : HmsMessageService() {
 
-    override fun onMessageReceived(remoteMessage: RemoteMessage?) {
+    override fun onMessageReceived(remoteMessage: RemoteMessage) {
         super.onMessageReceived(remoteMessage)
         var message: String? = null
 
-        remoteMessage?.apply {
+        remoteMessage.apply {
             data?.apply {
                 takeIf { this.isNotEmpty() }.apply {
                     message += "Message data : $data"
